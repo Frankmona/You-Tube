@@ -1,0 +1,6 @@
+.sidebar_display_text_icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
