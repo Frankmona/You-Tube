@@ -37,3 +37,75 @@ menu {
   background-color: rgb(108, 105, 105);
   margin: 6px 0;
 }
+
+.sidebar {
+  height: 100%;
+  width: 100px;
+  text-align: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:lightblue;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.mmg{
+  display: flex;
+}
+
+.icon-bar {
+  width: 100px;
+  background-color: none;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(238, 236, 236);
+  border-radius: 10px;
+ 
+}
+
+.icon_text{
+  font-size: 12px;
+}
+
+.tab_bg{
+  background-color: rgb(224, 221, 221)!important;
+}
+
+.off_canvas_sidebar a {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.off_canvas_sidebar a:hover {
+  background-color: rgb(238, 236, 236);
+  border-radius: 10px;
+ 
+}
+
+
+.off_text{
+  font-size: 16px;
+}
+
