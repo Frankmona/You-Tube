@@ -109,3 +109,19 @@ menu {
   font-size: 16px;
 }
 
+
+.img_tao{
+  width: 20%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card_text_likes{
+  font-size: 15px;
+
+}
+
+.card_profile{
+  display: flex;
+  gap: 1rem;
+}
