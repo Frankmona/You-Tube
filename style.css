@@ -111,7 +111,7 @@ menu {
 
 
 .img_tao{
-  width: 20%;
+  width: auto;
   height: 50px;
   border-radius: 50%;
 }
@@ -124,4 +124,8 @@ menu {
 .card_profile{
   display: flex;
   gap: 1rem;
+}
+
+.con_top{
+  margin-top: 6%;
 }
